@@ -25,10 +25,10 @@ def contents_of_file(filename):
   create_file(filename)
 
   # # Open the file
-  # flowers = []
-  # file = open(filename)
-  # csv_f = csv.DictReader(file)
-    
+   flowers = []
+   file = open(filename)
+   csv_f = csv.DictReader(file)
+   
   # # Read the rows of the file into a dictionary
   # for c in csv_f:
   #   flower = {}
@@ -38,23 +38,23 @@ def contents_of_file(filename):
   #   flowers.append(flower)
 
    # Open the file
-  flowers = []
-  file = open(filename)
-  csv_f = csv.reader(file)
-  row_count = 0
+  # flowers = []
+  # file = open(filename)
+  # csv_f = csv.reader(file)
+  # row_count = 0
+  
+  # # Read the rows of the file into a dictionary
+  # for c in csv_f:
     
-  # Read the rows of the file into a dictionary
-  for c in csv_f:
+  #   if row_count == 0 :
+  #     row_count += 1
+  #     continue
     
-    if row_count == 0 :
-      row_count += 1
-      continue
-    
-    flower = {}
-    flower["name"] = c[0]
-    flower["color"] = c[1]
-    flower["type"] = c[2]
-    flowers.append(flower)
+  #   flower = {}
+  #   flower["name"] = c[0]
+  #   flower["color"] = c[1]
+  #   flower["type"] = c[2]
+  #   flowers.append(flower)
 
   # Process each item of the dictionary
   for f in flowers:

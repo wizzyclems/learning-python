@@ -1,0 +1,2 @@
+/Users/ifiokudoh/wizzyapps/wizzypython/coursera/lab/bash-lab/data/jane_profile_07272018.doc
+/Users/ifiokudoh/wizzyapps/wizzypython/coursera/lab/bash-lab/data/jane_contact_07292018.csv
