@@ -7,7 +7,8 @@ import json
 
 s = "{'Name':'Emmanuel Ojong','age':30,'email':'emjong@gmail.com'}"
 
-student = json.loads(s)
+student = json.
+#..loads(s)
 
 print "Student Name: " + student['Name']
 print "Student Age: " + student['Name']

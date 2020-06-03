@@ -10,7 +10,7 @@ def parseSysLog():
   errorCount = {}
   userEntryCount = {}
 
-  with open(os.path.expanduser('~') + '/wizzyapps/wizzypython/coursera/Final-Project/sys.log', mode='r',encoding='UTF-8') as file:
+  with open(os.path.expanduser('~') + '/wizzyapps/wizzypython/coursera/Final-Project/syslog.log', mode='r',encoding='UTF-8') as file:
     for log in  file.readlines():
       pattern = r"[\w \.\:]* ([A-Z]{4,}) ([\w \']*) [\w \[\]\#]*\(([\w\.]*)\)"
       result = re.search(pattern, log)
