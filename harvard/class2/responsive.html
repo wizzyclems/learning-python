@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Python Harvard More Forms</title>
+      <style>
+
+          @media print{
+              .screen-only{
+                  display: none;
+              }
+          }
+
+          @media (min-width: 500px){
+                body{ 
+                    background-color: teal;
+                }
+
+                h2::before{
+                    content: "Welcome to Ifiok's world";
+                }
+          }
+
+          @media (max-width:499px){
+                body{ 
+                    background-color: olivedrab;
+                }
+
+                h2::before{
+                    content: "Welcome!";
+                }
+          }
+
+      </style>
+  </head>
+  <body>
+
+     <h2>Paragraph Lists</h2>
+
+     <h3>Primary paragraph</h3>
+
+     <h4>Secondary paragraph</h4>
+
+     <h5 class="screen-only">Media specific paragraph. Only visible on screens.</h5>
+
+  </body>
+</html>
